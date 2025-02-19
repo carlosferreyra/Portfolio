@@ -1,8 +1,8 @@
-import React from "react";
 import { motion } from "framer-motion";
+import React from "react";
+import Typewriter from "typewriter-effect";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
             I do
             <Typewriter
               options={{
-                strings: ["CyberSecurity", "Ai & ML", "NLP"],
+                strings: ["Software Engineering", "Data & Automation","Dev-Ops"],
                 autoStart: true,
                 loop: true,
                 loopCount: Infinity,

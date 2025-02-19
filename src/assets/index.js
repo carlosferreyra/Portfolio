@@ -1,21 +1,24 @@
 // Import company logos
-import mathwork from "./company/mathwork.png";
 import edunet from "./company/edunet.png";
 import eduskill from "./company/eduskill.png";
+import mathwork from "./company/mathwork.png";
+import utn from "./company/utn.png";
+import utn2 from "./company/utn2.png";
+import viceroy from "./company/viceroy.png";
 
 // Import tech stack images
-import python from "./tech-stack/python.png";
 import c from "./tech-stack/c.png";
 import cpp from "./tech-stack/cpp.png";
 import java from "./tech-stack/java.png";
+import python from "./tech-stack/python.png";
 
 // Import project images
-import weatherpedia from "./projects/WeatherPedia.png";
-import termpw from "./projects/termpw.png";
-import payloadmaster from "./projects/payloadmaster.png";
-import mhft from "./projects/mhft.png";
-import sketcher from "./projects/sketcher.png";
 import CompileVortex from "./projects/CompileVortex.png";
+import weatherpedia from "./projects/WeatherPedia.png";
+import mhft from "./projects/mhft.png";
+import payloadmaster from "./projects/payloadmaster.png";
+import sketcher from "./projects/sketcher.png";
+import termpw from "./projects/termpw.png";
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -28,35 +31,12 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
 
 // Import common assets
-import logo from "./logo.svg";
-import github from "./github.png";
-import menu from "./menu.svg";
 import close from "./close.svg";
+import github from "./github.png";
+import logo from "./logo.svg";
+import menu from "./menu.svg";
 
 export {
-  mathwork,
-  edunet,
-  python,
-  c,
-  cpp,
-  java,
-  github,
-  css,
-  git,
-  html,
-  javascript,
-  nodejs,
-  reactjs,
-  tailwind,
-  threejs,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  mhft,
-  sketcher,
-  CompileVortex,
-  logo,
-  menu,
-  close,
-  eduskill,
+  c, close, CompileVortex, cpp, css, edunet, eduskill, git, github, html, java, javascript, logo, mathwork, menu, mhft, nodejs, payloadmaster, python, reactjs, sketcher, tailwind, termpw, threejs, utn, utn2, viceroy, weatherpedia
 };
+

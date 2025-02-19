@@ -18,8 +18,18 @@ jobs:
           node-version: "22.x"
           cache: "npm"
 
+      - name: Check for recent commits
+        id: check_commits
+        run: |
+          if [ -z "$(git log --since='5 minutes ago' -1)" ]; then
+            echo "No recent commits, skipping deployment."
+            exit 0
+          fi
+
       - name: Install dependencies
+        if: steps.check_commits.outputs.recent_commits == 'true'
         run: npm i
 
       - name: Deploy
+        if: steps.check_commits.outputs.recent_commits == 'true'
         run: npm run deploy
